@@ -1,0 +1,38 @@
+{
+  "buildFiles": [
+    "/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/yousef/HDD/SDK/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/.cxx/RelWithDebInfo/5y6i5o2a/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/yousef/HDD/SDK/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/.cxx/RelWithDebInfo/5y6i5o2a/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "secrets::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "x86_64",
+      "artifactName": "secrets",
+      "output": "/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/build/intermediates/cxx/RelWithDebInfo/5y6i5o2a/obj/x86_64/libsecrets.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/yousef/HDD/SDK/ndk/25.0.8355429/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/yousef/HDD/SDK/ndk/25.0.8355429/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
