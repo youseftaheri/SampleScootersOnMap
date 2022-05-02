@@ -1,0 +1,2 @@
+/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/.cxx/Debug/b1e6n2g5/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/.cxx/Debug/b1e6n2g5/armeabi-v7a/CMakeFiles/edit_cache.dir

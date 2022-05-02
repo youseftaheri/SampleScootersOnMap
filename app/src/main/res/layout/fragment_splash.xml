@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.yousef.sampleScootersOnMap.ui.splashFragment.SplashFragment"
+    tools:ignore="MissingPrefix,UnusedAttribute"
+    android:layoutDirection="locale">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.yousef.sampleScootersOnMap.ui.splashFragment.SplashViewModel" />
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/rlSplashContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_one"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/background"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:id="@+id/background_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/background" />
+
+        <ImageView
+            android:id="@+id/ivSplashLogo"
+            style="@style/splashLogoImageView"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="@dimen/_13sdp"
+            android:layout_above="@+id/tvWebsite"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/background"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/app_email"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_13sdp" />
+    </RelativeLayout>
+</layout>

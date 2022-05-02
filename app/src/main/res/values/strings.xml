@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SampleScootersOnMap</string>
+    <string name="ok">OK</string>
+    <string name="app_email">WWW.SAMPLE_APP.COM</string>
+    <string name="internetError">Please check your internet connection</string>
+    <string name="locationError">Please check your location status</string>
+    <string name="details">details</string>
+    <string name="my_location">My Location</string>
+    <string name="noResult">No vehicle found</string>
+    <string name="hamburg_vehicles">Hamburg Vehicles</string>
+    <string name="vehiclesOnMap">VEHICLES ON MAP</string>
+
+</resources>

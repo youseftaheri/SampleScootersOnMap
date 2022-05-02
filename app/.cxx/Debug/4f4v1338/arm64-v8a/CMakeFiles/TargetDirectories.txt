@@ -1,0 +1,3 @@
+/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/.cxx/Debug/4f4v1338/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/.cxx/Debug/4f4v1338/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/yousef/HDD/project_challenges/SampleScootersOnMap/app/.cxx/Debug/4f4v1338/arm64-v8a/CMakeFiles/secrets.dir
